@@ -1,0 +1,102 @@
+.sprite {
+  width: 231px;
+  height: 190px;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  transform: scale(var(--scale, 2));
+  transform-origin: bottom left;
+}
+
+/* Scales downward from the top-left corner — use in non-floor contexts */
+.originTop {
+  transform-origin: top left;
+}
+
+.facingLeft {
+  transform: translateX(calc(var(--scale, 2) * 100%)) scale(calc(var(--scale, 2) * -1), var(--scale, 2));
+}
+
+/* ── States ─────────────────────────────────────────────── */
+
+.attack1 {
+  background-image: url("/wizard_sprites/Attack1.png");
+  animation: attack1 0.8s steps(8) infinite;
+}
+
+.attack2 {
+  background-image: url("/wizard_sprites/Attack2.png");
+  animation: attack2 0.8s steps(8) infinite;
+}
+
+.death {
+  background-image: url("/wizard_sprites/Death.png");
+  animation: death 0.875s steps(7) forwards;
+}
+
+.fall {
+  background-image: url("/wizard_sprites/Fall.png");
+  animation: fall 0.33s steps(2) infinite;
+}
+
+.hit {
+  background-image: url("/wizard_sprites/Hit.png");
+  animation: hit 0.4s steps(4) forwards;
+}
+
+.idle {
+  background-image: url("/wizard_sprites/Idle.png");
+  animation: idle 0.75s steps(6) infinite;
+}
+
+.jump {
+  background-image: url("/wizard_sprites/Jump.png");
+  animation: jump 0.33s steps(2) infinite;
+}
+
+.run {
+  background-image: url("/wizard_sprites/Run.png");
+  animation: run 0.67s steps(8) infinite;
+}
+
+/* ── Keyframes ───────────────────────────────────────────── */
+
+@keyframes attack1 {
+  from { background-position-x: 0; }
+  to   { background-position-x: -1848px; }
+}
+
+@keyframes attack2 {
+  from { background-position-x: 0; }
+  to   { background-position-x: -1848px; }
+}
+
+@keyframes death {
+  from { background-position-x: 0; }
+  to   { background-position-x: -1617px; }
+}
+
+@keyframes fall {
+  from { background-position-x: 0; }
+  to   { background-position-x: -462px; }
+}
+
+@keyframes hit {
+  from { background-position-x: 0; }
+  to   { background-position-x: -924px; }
+}
+
+@keyframes idle {
+  from { background-position-x: 0; }
+  to   { background-position-x: -1386px; }
+}
+
+@keyframes jump {
+  from { background-position-x: 0; }
+  to   { background-position-x: -462px; }
+}
+
+@keyframes run {
+  from { background-position-x: 0; }
+  to   { background-position-x: -1848px; }
+}

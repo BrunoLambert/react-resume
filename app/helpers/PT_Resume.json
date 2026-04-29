@@ -1,0 +1,197 @@
+{
+  "name": "Bruno Lambert",
+  "title": "Desenvolvedor Frontend | React | Vue | UI | UX | TypeScript | 8+ anos de experiência",
+  "summary": "Desenvolvedor Frontend com mais de 8 anos de experiência construindo interfaces de alto desempenho e responsivas, com foco em usabilidade, acessibilidade e performance. Especialista em React, Next.js e Vue, com experiência em equipes ágeis e entrega de soluções orientadas a produto e resultado. Forte expertise em UX/UI, SEO, testes A/B e desenvolvimento mobile-first.",
+  "contacts": {
+    "location": "Cambuí / MG",
+    "phone": "+55 11 94856-0966",
+    "whatsapp": true,
+    "email": "brunofsclambert@gmail.com",
+    "website": "https://brunoflambert.vercel.app",
+    "github": "https://github.com/BrunoLambert"
+  },
+  "experience": [
+    {
+      "company": "Hub Xp / Afya",
+      "location": "Remoto",
+      "role": "Desenvolvedor Frontend Sênior",
+      "startDate": "2025-08",
+      "endDate": null,
+      "current": true,
+      "responsibilities": [
+        "Desenvolvendo funcionalidades frontend com React, TypeScript, Next.js e SCSS.",
+        "Construindo um Design System completo alinhado aos componentes da marca Afya.",
+        "Colaborando com designers para criar uma nova UI usando Figma sem o uso de frameworks de UI externos.",
+        "Trabalhando com gerentes de produto para alcançar o melhor cenário de UX."
+      ]
+    },
+    {
+      "company": "Mevo Saúde",
+      "location": "Remoto",
+      "role": "Desenvolvedor Frontend Pleno",
+      "startDate": "2021-09",
+      "endDate": "2024-01",
+      "current": false,
+      "responsibilities": [
+        "Desenvolvi funcionalidades frontend com React, TypeScript, Next.js, Chakra UI e REST APIs.",
+        "Migrei sistemas de React para Next.js, reduzindo tempos de carregamento e melhorando a segurança enquanto implementava um novo Design System.",
+        "Conduzi testes A/B com Google Analytics, aumentando as taxas de conversão do marketplace e melhorando a UI com base no comportamento do usuário.",
+        "Aprimorei segurança e usabilidade por meio de práticas definidas com a equipe de produto, utilizando métricas de comportamento e feedback de usuários, aplicando metodologias ágeis como Scrum e Kanban."
+      ]
+    },
+    {
+      "company": "Optimum Soluções",
+      "location": "São Paulo",
+      "role": "Desenvolvedor Frontend Júnior",
+      "startDate": "2020-01",
+      "endDate": "2021-09",
+      "current": false,
+      "responsibilities": [
+        "Desenvolvi dashboards interativos com Vue, Nuxt.js, Vuetify, Google Charts e REST APIs dentro de metodologias ágeis como Scrum e Kanban.",
+        "Redesenhei a interface principal do produto, melhorando a visualização de dados e a experiência do usuário.",
+        "Criei novas interfaces responsivas alinhadas aos princípios modernos de UX/UI, incluindo a criação de um Style Guide."
+      ]
+    },
+    {
+      "company": "Beeleads",
+      "location": "Itajubá",
+      "role": "Desenvolvedor Frontend Júnior",
+      "startDate": "2019-08",
+      "endDate": "2020-01",
+      "current": false,
+      "responsibilities": [
+        "Desenvolvi aplicações frontend com React, Next.js, Material UI e REST APIs dentro de metodologias ágeis como Scrum e Kanban.",
+        "Migrei sistemas legados para Next.js, melhorando performance, taxas de conversão e satisfação dos usuários.",
+        "Construí um aplicativo mobile do zero com React Native, entregando uma experiência de usuário fluida."
+      ]
+    },
+    {
+      "company": "Incluir Tecnologia",
+      "location": "Itajubá",
+      "role": "Desenvolvedor Estagiário",
+      "startDate": "2018-11",
+      "endDate": "2019-08",
+      "current": false,
+      "responsibilities": [
+        "Desenvolvi sistemas web com Vue, Nuxt.js, PHP, Laravel, MySQL e REST APIs dentro de metodologias ágeis como Scrum e Kanban.",
+        "Implementei soluções para impressão 3D e educação em língua de sinais.",
+        "Contribuí para o desenvolvimento do sistema MOVA."
+      ]
+    },
+    {
+      "company": "Turris.com",
+      "location": "Itajubá",
+      "role": "Desenvolvedor Estagiário",
+      "startDate": "2017-11",
+      "endDate": "2018-10",
+      "current": false,
+      "responsibilities": [
+        "Desenvolvi aplicações web com Vue, Nuxt.js, Ruby on Rails, MySQL, GraphQL e Google Maps API (Directions e Places) dentro de metodologias ágeis como Scrum e Kanban.",
+        "Melhorei e criei novas experiências de usuário conectando viajantes a agências de viagem de forma inovadora e dinâmica."
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "React.js / Next.js",
+      "Vue.js / Nuxt.js",
+      "Javascript / Typescript",
+      "React Native / jQuery",
+      "HTML / CSS / SASS / Estilização",
+      "REST APIs / GraphQL"
+    ],
+    "design": [
+      "UX / UI / SEO",
+      "Design Systems / Style Guide",
+      "Figma / Photoshop / Canva"
+    ],
+    "uiFrameworks": [
+      "Vuetify UI / Kitten UI",
+      "Tailwind CSS / Material UI",
+      "Bootstrap / Next UI",
+      "Nuxt UI / Google Charts"
+    ],
+    "tools": [
+      "Google Analytics / Tags",
+      "Jest / Cypress / Testes A/B",
+      "Ágil / Scrum / Git / CI/CD",
+      "Google APIs (Directions, Places)"
+    ],
+    "backend": [
+      "PHP / Laravel",
+      "Ruby / Ruby on Rails",
+      "MySQL / PostgreSQL"
+    ]
+  },
+  "languages": [
+    { "language": "Português", "level": "Nativo" },
+    { "language": "Inglês", "level": "Avançado" },
+    { "language": "Espanhol", "level": "Básico" }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal de Itajubá",
+      "location": "Itajubá",
+      "degree": "Bacharelado em Sistemas de Informação",
+      "startDate": "2016-02",
+      "endDate": "2021-07",
+      "note": "Curso pausado após o 8º semestre"
+    },
+    {
+      "institution": "Escola Técnica de Eletrônica Francisco Moreira da Costa",
+      "location": "Santa Rita do Sapucaí",
+      "degree": "Técnico em Eletrônica com Ênfase em Telecomunicações",
+      "startDate": "2010-02",
+      "endDate": "2013-02",
+      "note": null
+    }
+  ],
+  "projects": [
+    {
+      "name": "Meu Currículo Online",
+      "url": "https://brunoflambert.vercel.app/",
+      "description": "Site pessoal construído com React, Next.js, Tailwind e Next UI, apresentando links sociais e portfólio em um layout responsivo e profissional."
+    },
+    {
+      "name": "Dungeon Fantasy",
+      "url": "https://github.com/BrunoLambert/dungeon-fantasy",
+      "description": "Macros em JavaScript para automatizar rolagens e habilidades durante sessões de TTRPG no FoundryVTT."
+    },
+    {
+      "name": "React Fantasy",
+      "url": "https://react-fantasy-mu.vercel.app/",
+      "description": "Jogo 2D construído com React, TypeScript e animações CSS. Desenvolvido para praticar componentes reativos e gerenciamento de estado em tempo real, incluindo controle de frames e lógica de ações."
+    }
+  ],
+  "ui": {
+    "availableForHire": "Aberto a oportunidades",
+    "role": "Desenvolvedor Frontend\nReact · Vue · TypeScript · 8+ anos",
+    "emailBtn": "Email",
+    "githubBtn": "GitHub",
+    "portfolioBtn": "Portfólio",
+    "downloadBtn": "Baixar CV",
+    "downloadUrl": "/documents/EN_Resume.pdf",
+    "beginQuest": "Iniciar missão",
+    "sections": {
+      "experience": "◆ Diário de Missões",
+      "skills": "◆ Grimório",
+      "education": "◆ Academia",
+      "projects": "◆ Quadro da Guilda",
+      "contact": "◆ Enviar um Corvo"
+    },
+    "activeJob": "ATIVO",
+    "skillCategories": {
+      "frontend": "Frontend",
+      "design": "Design",
+      "uiFrameworks": "UI Frameworks",
+      "tools": "Ferramentas",
+      "backend": "Backend",
+      "languages": "Idiomas"
+    },
+    "playground": {
+      "title": "◆ Playground",
+      "instructions": "← → para mover · ↑ pular · ↓ cair\nZ — Ataque 1 · X — Ataque 2"
+    },
+    "footer": "Feito com React & Next.js"
+  }
+}

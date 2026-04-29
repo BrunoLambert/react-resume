@@ -1,0 +1,197 @@
+{
+  "name": "Bruno Lambert",
+  "title": "Frontend Developer | React | Vue | UI | UX | TypeScript | 8+ years of experience",
+  "summary": "Frontend Developer with 8+ years of experience building high-performance, responsive interfaces focused on usability, accessibility, and performance. Specialist in React, Next.js, and Vue, with experience working in agile teams and delivering product- and result-oriented solutions. Strong expertise in UX/UI, SEO, A/B testing, and mobile-first development.",
+  "contacts": {
+    "location": "Cambuí / MG",
+    "phone": "+55 11 94856-0966",
+    "whatsapp": true,
+    "email": "brunofsclambert@gmail.com",
+    "website": "https://brunoflambert.vercel.app",
+    "github": "https://github.com/BrunoLambert"
+  },
+  "experience": [
+    {
+      "company": "Hub Xp / Afya",
+      "location": "Remote",
+      "role": "Senior-Level Frontend Developer",
+      "startDate": "2025-08",
+      "endDate": null,
+      "current": true,
+      "responsibilities": [
+        "Developing frontend features using React, TypeScript, Next.js and SCSS.",
+        "Building a complete Design System aligned with Afya's brand components.",
+        "Collaborating with designers to create a new UI using Figma without the use of external UI frameworks.",
+        "Working with product managers to achieve the best UX scenario."
+      ]
+    },
+    {
+      "company": "Mevo Saúde",
+      "location": "Remote",
+      "role": "Mid-Level Frontend Developer",
+      "startDate": "2021-09",
+      "endDate": "2024-01",
+      "current": false,
+      "responsibilities": [
+        "Developed frontend features using React, TypeScript, Next.js, Chakra UI, and REST APIs.",
+        "Migrated systems from React to Next.js, reducing load times and improving security while implementing a new Design System.",
+        "Conducted A/B tests using Google Analytics, increasing marketplace conversion rates and improving the UI based on user behavior.",
+        "Enhanced security and usability through practices defined with the product team, using behavior metrics and user feedback, applying agile methodologies such as Scrum and Kanban."
+      ]
+    },
+    {
+      "company": "Optimum Soluções",
+      "location": "São Paulo",
+      "role": "Junior Frontend Developer",
+      "startDate": "2020-01",
+      "endDate": "2021-09",
+      "current": false,
+      "responsibilities": [
+        "Developed interactive dashboards using Vue, Nuxt.js, Vuetify, Google Charts, and REST APIs within agile methodologies such as Scrum and Kanban.",
+        "Redesigned the main product interface, improving data visualization and user experience.",
+        "Created new responsive interfaces aligned with modern UX/UI principles, including the creation of a Style Guide."
+      ]
+    },
+    {
+      "company": "Beeleads",
+      "location": "Itajubá",
+      "role": "Junior Frontend Developer",
+      "startDate": "2019-08",
+      "endDate": "2020-01",
+      "current": false,
+      "responsibilities": [
+        "Developed frontend applications using React, Next.js, Material UI, and REST APIs within agile methodologies such as Scrum and Kanban.",
+        "Migrated legacy systems to Next.js, improving performance, conversion rates, and user satisfaction.",
+        "Built a mobile application from scratch using React Native, delivering a seamless user experience."
+      ]
+    },
+    {
+      "company": "Incluir Tecnologia",
+      "location": "Itajubá",
+      "role": "Intern Developer",
+      "startDate": "2018-11",
+      "endDate": "2019-08",
+      "current": false,
+      "responsibilities": [
+        "Developed web systems using Vue, Nuxt.js, PHP, Laravel, MySQL, and REST APIs within agile methodologies such as Scrum and Kanban.",
+        "Implemented solutions for 3D printing and sign language education.",
+        "Contributed to the development of the MOVA system."
+      ]
+    },
+    {
+      "company": "Turris.com",
+      "location": "Itajubá",
+      "role": "Intern Developer",
+      "startDate": "2017-11",
+      "endDate": "2018-10",
+      "current": false,
+      "responsibilities": [
+        "Developed web applications using Vue, Nuxt.js, Ruby on Rails, MySQL, GraphQL, and Google Maps API (Directions and Places) within agile methodologies such as Scrum and Kanban.",
+        "Improved and created new user experiences by connecting travelers to travel agencies in an innovative and dynamic way."
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "React.js / Next.js",
+      "Vue.js / Nuxt.js",
+      "Javascript / Typescript",
+      "React Native / jQuery",
+      "HTML / CSS / SASS / Styling",
+      "REST APIs / GraphQL"
+    ],
+    "design": [
+      "UX / UI / SEO",
+      "Design Systems / Style Guide",
+      "Figma / Photoshop / Canva"
+    ],
+    "uiFrameworks": [
+      "Vuetify UI / Kitten UI",
+      "Tailwind CSS / Material UI",
+      "Bootstrap / Next UI",
+      "Nuxt UI / Google Charts"
+    ],
+    "tools": [
+      "Google Analytics / Tags",
+      "Jest / Cypress / A/B Tests",
+      "Agile / Scrum / Git / CI/CD",
+      "Google APIs (Directions, Places)"
+    ],
+    "backend": [
+      "PHP / Laravel",
+      "Ruby / Ruby on Rails",
+      "MySQL / PostgreSQL"
+    ]
+  },
+  "languages": [
+    { "language": "Portuguese", "level": "Native" },
+    { "language": "English", "level": "Advanced" },
+    { "language": "Spanish", "level": "Basic" }
+  ],
+  "education": [
+    {
+      "institution": "Federal University of Itajubá",
+      "location": "Itajubá",
+      "degree": "Bachelor's in Information Systems",
+      "startDate": "2016-02",
+      "endDate": "2021-07",
+      "note": "Course paused after the 8th semester"
+    },
+    {
+      "institution": "Technical School of Electronics, Francisco Moreira da Costa",
+      "location": "Santa Rita do Sapucaí",
+      "degree": "Electronics Technician with Emphasis on Telecommunications",
+      "startDate": "2010-02",
+      "endDate": "2013-02",
+      "note": null
+    }
+  ],
+  "projects": [
+    {
+      "name": "My Online Resume",
+      "url": "https://brunoflambert.vercel.app/",
+      "description": "Personal website built with React, Next.js, Tailwind, and Next UI, showcasing social links and portfolio in a responsive and professional layout."
+    },
+    {
+      "name": "Dungeon Fantasy",
+      "url": "https://github.com/BrunoLambert/dungeon-fantasy",
+      "description": "JavaScript macros for automating rolls and abilities during TTRPG sessions on FoundryVTT."
+    },
+    {
+      "name": "React Fantasy",
+      "url": "https://react-fantasy-mu.vercel.app/",
+      "description": "2D game built with React, TypeScript, and CSS animations. Developed to practice reactive components and real-time state handling, including frame control and action logic."
+    }
+  ],
+  "ui": {
+    "availableForHire": "Open to opportunities",
+    "role": "Frontend Developer\nReact · Vue · TypeScript · 8+ yrs",
+    "emailBtn": "Email",
+    "githubBtn": "GitHub",
+    "portfolioBtn": "Portfolio",
+    "downloadBtn": "Download CV",
+    "downloadUrl": "/documents/EN_Resume.pdf",
+    "beginQuest": "Begin your quest",
+    "sections": {
+      "experience": "◆ Quest Log",
+      "skills": "◆ Spellbook",
+      "education": "◆ Academy",
+      "projects": "◆ Guild Board",
+      "contact": "◆ Send a Raven"
+    },
+    "activeJob": "ACTIVE",
+    "skillCategories": {
+      "frontend": "Frontend",
+      "design": "Design",
+      "uiFrameworks": "UI Frameworks",
+      "tools": "Tools",
+      "backend": "Backend",
+      "languages": "Languages"
+    },
+    "playground": {
+      "title": "◆ Playground",
+      "instructions": "← → to move · ↑ jump · ↓ fall\nZ — Attack 1 · X — Attack 2"
+    },
+    "footer": "Crafted with React & Next.js"
+  }
+}

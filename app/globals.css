@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #09091f;
+  --foreground: #e2e8f0;
+
+  --rpg-bg:            #09091f;
+  --rpg-surface:       #0e0e2a;
+  --rpg-card:          #13133a;
+  --rpg-border:        #252566;
+  --rpg-purple:        #7c3aed;
+  --rpg-purple-light:  #a855f7;
+  --rpg-gold:          #d97706;
+  --rpg-gold-light:    #fbbf24;
+  --rpg-teal:          #0891b2;
+  --rpg-teal-light:    #22d3ee;
+  --rpg-text:          #e2e8f0;
+  --rpg-muted:         #94a3b8;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-background:       var(--background);
+  --color-foreground:       var(--foreground);
+  --font-sans:              var(--font-geist-sans);
+  --font-mono:              var(--font-geist-mono);
+  --font-pixel:             var(--font-press-start);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-rpg-bg:           var(--rpg-bg);
+  --color-rpg-surface:      var(--rpg-surface);
+  --color-rpg-card:         var(--rpg-card);
+  --color-rpg-border:       var(--rpg-border);
+  --color-rpg-purple:       var(--rpg-purple);
+  --color-rpg-purple-light: var(--rpg-purple-light);
+  --color-rpg-gold:         var(--rpg-gold);
+  --color-rpg-gold-light:   var(--rpg-gold-light);
+  --color-rpg-teal:         var(--rpg-teal);
+  --color-rpg-teal-light:   var(--rpg-teal-light);
+  --color-rpg-text:         var(--rpg-text);
+  --color-rpg-muted:        var(--rpg-muted);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* ── Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--rpg-bg); }
+::-webkit-scrollbar-thumb { background: var(--rpg-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--rpg-purple); }
+::selection { background: rgba(124, 58, 237, 0.35); }
+
+/* ── Section backgrounds ────────────────────────────── */
+.section-dark    { background: var(--rpg-bg); }
+.section-surface { background: var(--rpg-surface); }
+
+/* ── RPG card ───────────────────────────────────────── */
+.rpg-card {
+  background: var(--rpg-card);
+  border: 1px solid var(--rpg-border);
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.rpg-card:hover {
+  border-color: var(--rpg-purple);
+  box-shadow: 0 0 24px rgba(124, 58, 237, 0.12);
+}
+
+/* ── RPG buttons ────────────────────────────────────── */
+.rpg-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-press-start), monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--rpg-purple);
+  color: var(--rpg-purple-light);
+  background: rgba(124, 58, 237, 0.08);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, color 0.2s;
+}
+.rpg-btn:hover {
+  background: rgba(124, 58, 237, 0.22);
+  border-color: var(--rpg-purple-light);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(124, 58, 237, 0.3);
+}
+.rpg-btn-gold {
+  border-color: var(--rpg-gold);
+  color: var(--rpg-gold-light);
+  background: rgba(217, 119, 6, 0.08);
+}
+.rpg-btn-gold:hover {
+  background: rgba(217, 119, 6, 0.22);
+  border-color: var(--rpg-gold-light);
+  box-shadow: 0 0 14px rgba(217, 119, 6, 0.3);
+  color: #fff;
 }
