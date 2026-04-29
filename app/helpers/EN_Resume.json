@@ -150,7 +150,7 @@
     {
       "name": "My Online Resume",
       "url": "https://brunoflambert.vercel.app/",
-      "description": "Personal website built with React, Next.js, Tailwind, and Next UI, showcasing social links and portfolio in a responsive and professional layout."
+      "description": "RPG-themed interactive resume built with Next.js 15, TypeScript, and Tailwind CSS v4. Features a pixel-art wizard that walks across the screen as you scroll, keyboard-driven character animations, bilingual support (PT/EN), and a full dark RPG UI with Press Start 2P font."
     },
     {
       "name": "Dungeon Fantasy",

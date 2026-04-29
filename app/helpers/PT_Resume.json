@@ -150,7 +150,7 @@
     {
       "name": "Meu Currículo Online",
       "url": "https://brunoflambert.vercel.app/",
-      "description": "Site pessoal construído com React, Next.js, Tailwind e Next UI, apresentando links sociais e portfólio em um layout responsivo e profissional."
+      "description": "Currículo interativo com tema de RPG construído com Next.js 15, TypeScript e Tailwind CSS v4. Possui um mago em pixel art que caminha pela tela conforme o scroll, animações de personagem controladas por teclado, suporte bilíngue (PT/EN) e uma interface dark RPG completa com fonte Press Start 2P."
     },
     {
       "name": "Dungeon Fantasy",
